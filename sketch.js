@@ -52,7 +52,7 @@ function preload() {
 function setup() {
     createCanvas(800, 400);
     level = 0;
-    score = 0;
+    score = -1;
 }
 
 function draw() {
