@@ -307,9 +307,9 @@ function draw() {
         fill(161, 177, 204, 100);
         rect(300, 300, 200, 50);
         fill(255, 180);
-        text("K E E P  P L A Y I N G", 340, 330);
+        text(" P L A Y   A G A I N  ", 340, 330);
         if (mouseIsPressed && mouseX > 300 && mouseX < 500 && mouseY > 300 && mouseY < 350) {
-            level = 3
+            level = 0
         }
     }
 }
