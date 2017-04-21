@@ -307,9 +307,6 @@ function draw() {
         fill(161, 177, 204, 100);
         rect(300, 300, 200, 50);
         fill(255, 180);
-        text(" P L A Y   A G A I N  ", 350, 330);
-        if (mouseIsPressed && mouseX > 300 && mouseX < 500 && mouseY > 300 && mouseY < 350) {
-            level = 0
-        }
+        text("[refresh to play again]", 50, 300);
     }
 }
