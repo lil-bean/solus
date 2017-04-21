@@ -307,6 +307,6 @@ function draw() {
         fill(161, 177, 204, 100);
         rect(300, 300, 200, 50);
         fill(255, 180);
-        text("[refresh to play again]", 50, 300);
+        
     }
 }
