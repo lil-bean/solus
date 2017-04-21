@@ -304,9 +304,6 @@ function draw() {
         fill(10, 10, 10, 100);
         text("look at you, rejecting all of that outside communication!", 50, 70);
         text("congratulations. you've achieved solipsism. enjoy your solus!", 50, 90);
-        fill(161, 177, 204, 100);
-        rect(300, 300, 200, 50);
-        fill(255, 180);
-        
+        text("[refresh to play again]", 50, 300);
     }
 }
